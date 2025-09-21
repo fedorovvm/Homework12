@@ -12,8 +12,8 @@ public class App {
         System.out.println("Книга 2 : "+book2);
         System.out.println("У обеих книг один автор = " + author1.equals(author2));
         System.out.println("Обе книги одинаковые = " + book1.equals(book2));
-        System.out.println("Хэш-код автора 1 " + author1.hashCode());
-        System.out.println("Хэш-код автора 2 " + author2.hashCode());
+        System.out.println("Хэш-код автора 1 = " + author1.hashCode());
+        System.out.println("Хэш-код автора 2 = " + author2.hashCode());
         System.out.println("Хэш-код книги 1 = " + book1.hashCode());
         System.out.println("Хэш-код книги 2 = " + book2.hashCode());
     }
