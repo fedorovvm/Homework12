@@ -12,6 +12,7 @@ public class Author {
     public String getName() {
         return this.name;
     }
+    @Override
     public String toString() {
         return "Автор: " + this.surName+ " " + this.name;
     }
